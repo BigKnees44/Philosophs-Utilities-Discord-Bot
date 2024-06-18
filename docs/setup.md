@@ -15,7 +15,7 @@ To keep it online, you need to keep the bot process running.
 1. Create a bot on the [Discord Developer Portal](https://discord.com/developers/)
 2. Turn on **Server Members Intent** and **Message Content Intent** in the bot's settings page on the developer portal ([Image](intents.png))
 3. Install Node.js 18 (LTS) or higher
-4. [Download the latest bot release here](https://github.com/Dragory/modmailbot/releases/latest) (click on "Source code (zip)")
+4. [Download the latest bot release here](https://github.com/BigKnees44/Philosophs-Utilities-Discord-Bot/releases/latest) (click on "Source code (zip)")
 5. Extract the downloaded Zip file to a new folder
 6. In the bot's folder (that you extracted from the zip file), make a copy of the file `config.example.ini` and rename the copy to `config.ini`
     * If you're on Windows, the file may be named `config.example` (without `.ini` at the end)
@@ -33,8 +33,7 @@ This is the recommended setup for small and medium sized servers.
     * It is not recommended to give the bot Administrator permissions under *any* circumstances
 6. **[🏃 Start the bot!](starting-the-bot.md)**
 7. Want to change other bot options? See **[📝 Configuration](configuration.md)**
-8. Have any other questions? Check out the **[🙋 Frequently Asked Questions](faq.md)** or
-   **[join the support server!](../README.md#support-server)**
+8. Have any other questions? Check out the **[🙋 Frequently Asked Questions](faq.md)**
 
 ## Two-server setup
 In this setup, modmail threads are opened on a separate inbox server.
@@ -52,8 +51,7 @@ You might also want this setup for privacy concerns*.
     * The bot does not need any permissions on the main server
 7. **[🏃 Start the bot!](starting-the-bot.md)**
 8. Want to change other bot options? See **[📝 Configuration](configuration.md)**
-9. Have any other questions? Check out the **[🙋 Frequently Asked Questions](faq.md)** or
-   **[join the support server!](../README.md#support-server)**
+9. Have any other questions? Check out the **[🙋 Frequently Asked Questions](faq.md)**
 
 *\* Since all channel names, even for channels you can't see, are public information through the API, a user with a
 modified client could see the names of all users contacting modmail through the modmail channel names.* 
